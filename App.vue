@@ -3,8 +3,13 @@
     <h1>Consent modal demo</h1>
     <h2>Navigation</h2>
     <ul>
-      <li>Root Vue app https://consent-modal-demo.github.io</li>
-      <li>Preact subapp https://consent-modal-demo.github.io/some-path</li>
+      <li>
+        <strong>Root Vue app https://consent-modal-demo.github.io</strong>
+      </li>
+      <li>
+        Preact subapp
+        <a href="/some-path">https://consent-modal-demo.github.io/some-path</a>
+      </li>
     </ul>
     <h2>Consent state</h2>
     <dl>
