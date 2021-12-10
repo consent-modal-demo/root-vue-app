@@ -23,8 +23,6 @@
 </template>
 
 <script>
-import ConsentModal from '@consent-modal-demo/consent-modal';
-
 export default {
   data() {
     return {
@@ -37,7 +35,7 @@ export default {
     };
   },
   created() {
-    ConsentModal((consent, showingModal) => {
+    window.ConsentModal((consent, showingModal) => {
       this.consent = consent;
       this.showingModal = showingModal;
     });
