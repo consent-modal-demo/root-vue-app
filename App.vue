@@ -23,7 +23,6 @@
 </template>
 
 <script>
-import { ref } from 'vue';
 import ConsentModal from '@consent-modal-demo/consent-modal';
 
 export default {
